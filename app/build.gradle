@@ -80,6 +80,7 @@ dependencies {
     implementation "androidx.compose.runtime:runtime:$compose_ui_version"
     implementation "androidx.compose.runtime:runtime-livedata:$compose_ui_version"
     implementation 'androidx.datastore:datastore-preferences:1.0.0'
+    implementation "androidx.core:core-splashscreen:1.0.0"
 
     def fragment_version = "1.5.6"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
